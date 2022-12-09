@@ -6,7 +6,7 @@ public class Notification {
     private String receiver;
     private String sender;
 
-    private Notification(String title) {
+    public Notification(String title) {
         this.title = title;
     }
 
