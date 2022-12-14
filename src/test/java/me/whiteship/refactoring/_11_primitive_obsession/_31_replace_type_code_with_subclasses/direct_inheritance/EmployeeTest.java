@@ -16,8 +16,8 @@ class EmployeeTest {
 
 //    @Test
 //    void employeeType() {
-//        assertEquals("engineer", new Employee("keesun", "engineer").getType());
-//        assertEquals("manager", new Employee("keesun", "manager").getType());
+//        assertEquals("engineer", new Employee("keesun", "engineer").getTypeValue());
+//        assertEquals("manager", new Employee("keesun", "manager").getTypeValue());
 //        assertThrows(IllegalArgumentException.class, () -> new Employee("keesun", "wrong type"));
 //    }
 }

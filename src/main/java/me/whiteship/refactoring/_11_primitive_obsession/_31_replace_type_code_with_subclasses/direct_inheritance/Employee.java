@@ -4,7 +4,7 @@ public abstract class Employee {
 
     private String name;
 
-    protected Employee(String name) {
+    Employee(String name) {
         this.name = name;
     }
 
@@ -13,17 +13,17 @@ public abstract class Employee {
             case "engineer" -> new Engineer(name);
             case "manager" -> new Manager(name);
             case "salesman" -> new Salesman(name);
-            default -> throw new IllegalArgumentException(type);
+            default -> throw new IllegalArgumentException();
         };
     }
 
-    public abstract String getType();
+    protected abstract String getType();
 
     @Override
     public String toString() {
         return "Employee{" +
                 "name='" + name + '\'' +
-                ", type='" + this.getType() + '\'' +
+                ", type='" + getType() + '\'' +
                 '}';
     }
 }
