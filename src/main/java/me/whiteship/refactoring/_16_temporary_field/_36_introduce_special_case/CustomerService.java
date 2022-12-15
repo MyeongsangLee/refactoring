@@ -4,17 +4,18 @@ public class CustomerService {
 
     public String customerName(Site site) {
         return site.getCustomer().getName();
+
+
 //        Customer customer = site.getCustomer();
 //
 //        String customerName;
-//        if (customer.getName().equals("unknown")) {
+//        if (customer.isUnknown()) {
 //            customerName = "occupant";
 //        } else {
 //            customerName = customer.getName();
 //        }
 //
 //        return customerName;
-
     }
 
     public BillingPlan billingPlan(Site site) {
