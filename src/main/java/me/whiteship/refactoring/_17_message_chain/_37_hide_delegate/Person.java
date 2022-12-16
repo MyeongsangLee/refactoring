@@ -23,8 +23,8 @@ public class Person {
         this.department = department;
     }
 
-    Person getManager() {
+    //추가
+    public Person getManager() {
         return getDepartment().getManager();
-//        return this.manager;
     }
 }
