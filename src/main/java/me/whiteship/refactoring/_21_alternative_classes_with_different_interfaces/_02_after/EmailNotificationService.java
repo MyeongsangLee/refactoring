@@ -1,6 +1,6 @@
-package me.whiteship.refactoring._21_alternative_classes_with_different_interfaces;
+package me.whiteship.refactoring._21_alternative_classes_with_different_interfaces._02_after;
 
-public class EmailNotificationService implements NotificationService{
+public class EmailNotificationService implements NotificationService {
 
     private EmailService emailService;
     @Override
