@@ -2,6 +2,6 @@ package me.whiteship.refactoring._21_alternative_classes_with_different_interfac
 
 public interface NotificationService {
 
-    public void notifyShipping(Notification notification);
+    public void setNotification(Notification notification);
 
 }
